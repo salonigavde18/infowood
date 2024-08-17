@@ -1,0 +1,36 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200&family=Source+Code+Pro:wght@500&display=swap');
+* {
+  scroll-behavior: smooth;
+}
+.app{
+  min-height: 100vh;
+  background-color:#253E45;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+
+}
+@media (max-width: 700px){
+  .app{
+    padding-top: 70px;
+  }
+}
+.pageTitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond";
+  font-size: 2vw;
+  padding: 6px;
+  border-radius: 50px;
+  color: white;
+  margin-top:10px ;
+}
+
+@media(max-width: 1000px){
+  .pageTitle{
+    font-size: 6.4vw;
+  }
+}

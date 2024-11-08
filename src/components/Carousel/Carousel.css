@@ -1,0 +1,22 @@
+.carouselItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.carouselItem__img {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+}
+
+.carouselItem__txt {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
